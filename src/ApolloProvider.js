@@ -8,7 +8,7 @@ import { setContext } from "apollo-link-context";
 import Cookies from "js-cookie";
 
 const httpLink = createHttpLink({
-  uri: "http://localhost:5000",
+  uri: "https://shrouded-castle-64723.herokuapp.com/",
 });
 
 const authLink = setContext(() => {
